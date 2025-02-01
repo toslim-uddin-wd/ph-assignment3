@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonta/css/all.css">
+    <link rel="stylesheet" href="assets/fonta/js/all.js">
     <style>
         .font-sora {
             font-family: "Sora", serif;
@@ -34,16 +36,16 @@
 
     <nav class=" bg-gradient-to-b from-[rgba(255,255,255,0.01)] to-[#EFEBE3]">
         <!-- navbar start -->
-        <section class="py-6 max-sm:px-4">
+        <section class="py-8 max-sm:px-4 max-md:p-4 max-sm:border-b-2 border-green-500">
             <div class="container  mx-auto max-w-screen-xl flex items-center justify-between">
                 <div>
                     <img class="max-w-28" src="assets/images/logo-header.png" alt="brand logo ">
                 </div>
                 <div class="flex items-center max-lg:hidden">
                     <div class="mr-20">
-                        <a class="mr-4 font-medium text-lg text-[#111111]" href="#">Product</a>
-                        <a class="mr-4 font-medium text-lg text-[#111111]" href="#">Services</a>
-                        <a class="mr-4 font-medium text-lg text-[#111111]" href="#">Contact us</a>
+                        <a class="mr-4 font-medium text-lg text-[#111111] hover:text-green-500 duration-300" href="#">Product</a>
+                        <a class="mr-4 font-medium text-lg text-[#111111] hover:text-green-500 duration-300" href="#">Services</a>
+                        <a class="mr-4 font-medium text-lg text-[#111111] hover:text-green-500 duration-300" href="#">Contact us</a>
                     </div>
                     <div class="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -57,7 +59,7 @@
                                 d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                         </svg>
                         <button class="btn text-lg font-medium text-[#111111] px-6 mr-4">Login</button>
-                        <button class="btn bg-color text-lg text-white font-medium   mr-4">Registration</button>
+                        <button class="btn bg-color text-lg hover:text-[#111111] text-white font-medium   mr-4">Registration</button>
                     </div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -73,12 +75,12 @@
         <section class="mt-16 max-sm:mt-4">
             <div class="container mx-auto max-w-screen-xl">
                 <div class="max-w-screen-sm max-sm:p-5 mx-auto text-center">
-                    <h1 class="text-4xl	font-semibold text-color">Freshness <span class="main-color">You Can <br>
-                            Count</span> On, Prices You’ll Love!</h1>
-                    <p class="my-8 max-sm:my-2">Shop your daily essentials at unbeatable prices. From fresh produce to
+                    <h1 class="text-4xl	font-semibold text-color">Freshness <span class="main-color">You Can <br> Count</span> On, Prices You’ll Love!</h1>
+                    <!-- <h2 class="text-6xl animate-pulse text-green-600 font-bold mt-6 px-10 py-4 border  rounded-xl inline-block">Fruits</h2> -->
+                    <p class="my-8 max-sm:mb-2">Shop your daily essentials at unbeatable prices. From fresh produce to
                         pantry staples, we’ve got you covered every day!</p>
                 </div>
-                <div class="max-w-screen-lg mx-auto max-sm:px-5">
+                <div class="max-w-screen-lg mx-auto max-sm:px-5 animate-pulse">
                     <img src="assets/images/hero-vegetables.png" class="w-full" alt="banner img">
                 </div>
             </div>
@@ -86,11 +88,11 @@
     </nav>
     <main>
         <!-- service section start -->
-        <section class="py-24">
+        <section class="py-24 max-sm:py-12">
             <div class="container mx-auto max-w-screen-xl max-sm:px-4 max-md:px-4">
                 <h2 class="text-4xl main-color font-semibold mb-12">Services</h2>
                 <div class="grid grid-cols-3 gap-4 max-md:grid-cols-2 max-sm:grid-cols-1">
-                    <div class=" bg-[#EFEBE3] rounded-xl p-8 text-center">
+                    <div class=" hover:bg-[rgba(239,235,227,0.6)] duration-300 cursor-pointer bg-[#EFEBE3] rounded-xl p-8 text-center">
                         <div class="p-4 rounded-full bg-white inline-block">
                             <img src="assets/images/service.png" alt="img">
                         </div>
@@ -101,7 +103,7 @@
                             reduce the risk of heart disease and other diseases. So, eat enough fruit every day for a
                             healthy lifestyle and stay healthy!</p>
                     </div>
-                    <div class=" bg-[#EFEBE3] rounded-xl p-8 text-center">
+                    <div class=" hover:bg-[rgba(239,235,227,0.6)] duration-300 cursor-pointer bg-[#EFEBE3] rounded-xl p-8 text-center">
                         <div class="p-4 rounded-full bg-white inline-block">
                             <img src="assets/images/delivery.png" alt="img">
                         </div>
@@ -111,7 +113,7 @@
                             service ensures that you receive fresh, natural, and high-quality fruits right at your
                             doorstep.</p>
                     </div>
-                    <div class=" bg-[#EFEBE3] rounded-xl p-8 text-center">
+                    <div class=" hover:bg-[rgba(239,235,227,0.6)] duration-300 cursor-pointer bg-[#EFEBE3] rounded-xl p-8 text-center">
                         <div class="p-4 rounded-full bg-white inline-block">
                             <img src="assets/images/healthy.png" alt="img">
                         </div>
@@ -126,12 +128,12 @@
         </section>
 
         <!-- popular items section start -->
-        <section class="py-24 max-sm:py-10 max-sm:px-4 bg-[#EFEBE3]">
+        <section class="py-24 max-sm:py-10 max-sm:px-4 bg-[#EFEBE3] max-md:p-4 max-md:py-12">
             <div class="container max-w-screen-xl mx-auto">
                 <h2 class="text-4xl main-color font-semibold mb-12"> Popular Products </h2>
-                <div class="flex max-sm:flex-col  gap-4">
+                <div class="flex max-sm:flex-col max-md:flex-col  gap-4">
                     <div
-                        class="w-4/12 max-sm:w-full  rounded-xl bg-gradient-to-br from-[#53DB3A] to-[rgba(255,255,255,0.1)]">
+                        class="w-4/12 max-md:w-full max-md:mb-8 max-sm:w-full  rounded-xl bg-gradient-to-br from-[#53DB3A] to-[rgba(255,255,255,0.1)]">
                         <div class="pt-10 pl-6 pr-12 pb-44 max-sm:pb-44 bg-no-repeat bg-right-bottom "
                             style="background-image: url(assets/images/vegetable-offer.png);">
                             <h3 class="text-white font-semibold text-3xl mb-5">30% off</h3>
@@ -139,8 +141,8 @@
                             <button class="btn bg-white mt-4 px-10">Buy Now</button>
                         </div>
                     </div>
-                    <div class="w-8/12 max-sm:w-full rounded-xl grid grid-cols-3  max-sm:grid-cols-2 grid-rows-3 gap-4">
-                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 gap-4 items-center">
+                    <div class="w-8/12 max-md:w-full max-sm:w-full rounded-xl grid grid-cols-3 max-md:grid-cols-2 max-md:gap-4  max-sm:grid-cols-2 grid-rows-3 gap-4">
+                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 max-md:gap-6 gap-4  items-center">
                             <div class="bg-[#EFEBE3] inline-block rounded-xl p-2 max-sm:p-0">
                                 <img class="max-sm:w-16" src="assets/images/onion.png" alt="onion">
                             </div>
@@ -158,7 +160,7 @@
                                 <p class="text-lg max-[480px]:text-[12px] font-medium max-sm:text-sm">$39.99</p>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 gap-4 items-center">
+                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 max-md:gap-6 gap-4 items-center">
                             <div class="bg-[#EFEBE3] inline-block rounded-xl p-2 max-sm:p-0">
                                 <img class="max-sm:w-16" src="assets/images/potato.png" alt="onion">
                             </div>
@@ -176,7 +178,7 @@
                                 <p class="text-lg max-[480px]:text-[12px] font-medium max-sm:text-sm">$39.99</p>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 gap-4 items-center">
+                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 max-md:gap-6 gap-4 items-center">
                             <div class="bg-[#EFEBE3] inline-block rounded-xl p-2 max-sm:p-0">
                                 <img class="max-sm:w-16" src="assets/images/tomato.png" alt="onion">
                             </div>
@@ -194,7 +196,7 @@
                                 <p class="text-lg max-[480px]:text-[12px] font-medium max-sm:text-sm">$39.99</p>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 gap-4 items-center">
+                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 max-md:gap-6 gap-4 items-center">
                             <div class="bg-[#EFEBE3] inline-block rounded-xl p-2 max-sm:p-0">
                                 <img class="max-sm:w-16" src="assets/images/tomato.png" alt="onion">
                             </div>
@@ -212,7 +214,7 @@
                                 <p class="text-lg max-[480px]:text-[12px] font-medium max-sm:text-sm">$39.99</p>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 gap-4 items-center">
+                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 max-md:gap-6 gap-4 items-center">
                             <div class="bg-[#EFEBE3] inline-block rounded-xl p-2 max-sm:p-0">
                                 <img class="max-sm:w-16" src="assets/images/potato.png" alt="onion">
                             </div>
@@ -230,7 +232,7 @@
                                 <p class="text-lg max-[480px]:text-[12px] font-medium max-sm:text-sm">$39.99</p>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 gap-4 items-center">
+                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 max-md:gap-6 gap-4 items-center">
                             <div class="bg-[#EFEBE3] inline-block rounded-xl p-2 max-sm:p-0">
                                 <img class="max-sm:w-16" src="assets/images/onion.png" alt="onion">
                             </div>
@@ -248,7 +250,7 @@
                                 <p class="text-lg max-[480px]:text-[12px] font-medium max-sm:text-sm">$39.99</p>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 gap-4 items-center">
+                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 max-md:gap-6 gap-4 items-center">
                             <div class="bg-[#EFEBE3] inline-block rounded-xl p-2 max-sm:p-0">
                                 <img class="max-sm:w-16" src="assets/images/onion.png" alt="onion">
                             </div>
@@ -266,7 +268,7 @@
                                 <p class="text-lg max-[480px]:text-[12px] font-medium max-sm:text-sm">$39.99</p>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 gap-4 items-center">
+                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 max-md:gap-6 gap-4 items-center">
                             <div class="bg-[#EFEBE3] inline-block rounded-xl p-2 max-sm:p-0">
                                 <img class="max-sm:w-16" src="assets/images/potato.png" alt="onion">
                             </div>
@@ -284,7 +286,7 @@
                                 <p class="text-lg max-[480px]:text-[12px] font-medium max-sm:text-sm">$39.99</p>
                             </div>
                         </div>
-                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 gap-4 items-center">
+                        <div class="bg-white rounded-xl p-4 max-[480px]:p-2 flex  max-[450px]:gap-2 max-md:gap-6 gap-4 items-center">
                             <div class="bg-[#EFEBE3] inline-block rounded-xl p-2 max-sm:p-0">
                                 <img class="max-sm:w-16" src="assets/images/tomato.png" alt="onion">
                             </div>
@@ -309,28 +311,28 @@
         </section>
 
         <!-- offer section start -->
-        <section class="py-24 max-sm:py-16">
-            <div class="container max-w-screen-xl mx-auto max-sm:p-4">
+        <section class="py-24 max-sm:py-16 max-md:px-4">
+            <div class="container max-w-screen-xl mx-auto">
                 <h2 class="text-4xl main-color font-semibold mb-12">Arrival & Offers</h2>
                 <div class="flex  max-sm:flex-col gap-4 ">
-                    <div class="w-7/12 max-sm:w-full bg-[#115414] rounded-xl flex justify-between items-center">
-                        <div class="pl-8 w-1/2">
-                            <img class="max-w-[250px] max-sm:w-[130px] " src="assets/images/dawat-logo.png" alt="logo">
-                            <button class="btn border-none bg-[#63B76D] text-2xl max-sm:text-sm font-light text-white px-6 my-7 max-sm:my-6 ">Cook Exotic Dishes</button>
-                            <h3 class="text-3xl max-sm:text-2xl font-normal text-white">UP to <span class="font-bold">20% OFF</span>
+                    <div class="w-7/12 max-md:w-2/4 max-md:p-0 max-sm:w-full max-[455px]:py-6 bg-[#115414] rounded-xl flex justify-between items-center">
+                        <div class="pl-8 w-1/2 max-md:p-4">
+                            <img class="max-w-[250px] max-sm:w-[130px] max-md:w-[150px] " src="assets/images/dawat-logo.png" alt="logo">
+                            <button class="btn border-none bg-[#63B76D] text-2xl max-md:text-sm max-md:my-10 max-[400px]:text-sm  max-sm:text-sm font-light text-white px-6 my-7 max-sm:my-6 ">Cook Exotic Dishes</button>
+                            <h3 class="text-3xl max-[400px]:text-xl max-sm:text-2xl max-md:text-lg font-normal text-white">UP to <span class="font-bold">20% OFF</span>
                             </h3>
                         </div>
-                        <div class="mt-5 w-1/2 max-sm:pb-4">
-                            <img class="w-full h-full" src="assets/images/dawat-mock-up.png" alt="logo">
+                        <div class="mt-5 max-md:m-1/2 flex justify-end">
+                            <img class="w-full h-full flex justify-end" src="assets/images/dawat-mock-up.png" alt="logo">
                         </div>
                     </div>
-                    <div class="w-5/12 max-sm:w-full flex justify-between bg-[#102861] rounded-xl">
-                        <div class=" p-5">
+                    <div class="w-5/12 max-md:w-2/4 max-md:p-0 max-sm:w-full flex justify-between bg-[#102861] rounded-xl">
+                        <div class=" p-5 max-md:p-4">
                             <img src="assets/images/india-gate-logo.png" class="max-sm:w-16" alt="logo">
-                            <button class="bg-[#2A4D97] btn border-none text-2xl max-sm:text-sm font-light text-white px-6 my-7 max-sm:my-4">World’s No.1 Rice</button>
-                            <h3  class="text-3xl max-sm:text-2xl font-normal text-white">UP to <span class="font-bold"> 40% OFF</span></h3>
+                            <button class="bg-[#2A4D97] btn border-none text-2xl max-sm:text-sm max-md:text-sm font-light text-white px-6 my-7 max-md:my-4 max-sm:my-4">World’s No.1 Rice</button>
+                            <h3  class="text-3xl max-[400px]:text-xl max-sm:text-2xl max-md:text-lg font-normal text-white">UP to <span class="font-bold"> 40% OFF</span></h3>
                         </div>
-                        <div class="pr-4 pt-12 max-sm:pt-4">
+                        <div class="pr-4 pt-12 max-md:pt-3 max-sm:pt-4 flex justify-end">
                             <img class="max-sm:w-32" src="assets/images/india-gate-mock-up.png" alt="logo">
                         </div>
                     </div>
@@ -338,9 +340,48 @@
             </div>
         </section>
 
-
     </main>
-    <footer></footer>
+    <footer>
+        <section class="pb-24 bg-[#179800] mt-80 max-sm:mt-96 max-md:mt-48 max-sm:p-4 max-md:p-4 max-md:py-12">
+            <div class=" py-14 container max-w-screen-xl mx-auto rounded-xl ">
+                <div class="container px-7 py-14 max-sm:px-4 max-sm:py-7 rounded-xl max-w-screen-xl mx-auto bg-[#EFEBE3] mt-[-22%] max-sm:mt-[-87%] max-md:mt-[-40%]">
+                    <div class="flex max-sm:flex-col justify-center items-center">
+                        <div class="w-1/2 max-sm:w-full max-sm:p-8 text-center flex justify-center">
+                            <img class="max-sm:w-64 " src="assets/images/vegetable-busket.png" alt="img">
+                        </div>
+                        <div class="w-1/2 max-sm:w-full max-sm:text-center">
+                            <h2 class="text-3xl mb-6 font-semibold text-color max-sm:text-green-600">Get Grocery News!</h2>
+                            <p class="text-xl text-color">Exclusive training tips, ticks, product deals and more.</p>
+                            <input type="email" class="w-2/3 h-12 block max-sm:mx-auto my-8 rounded-xl px-7"  placeholder="Enter email...">
+                            <button class="py-4 px-12 rounded-xl bg-color hover:bg-green-500 duration-300 text-white" type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container max-w-screen-xl mx-auto flex  max-sm:flex-col justify-between items-end mt-12 max-md:mt-0 ">
+                <div class="w-5/12 max-sm:w-full">
+                    <img src="assets/images/logo-footer.png" alt="logo">
+                    <span class="inline-block max-w-[270px] mt-4 text-xl text-gray-200 font-normal ">Discover a world of treats, toys, and essentials handpicked for your furry friends</span>
+                </div>
+                <div class="flex max-sm:flex-col max-sm:items-start items-end justify-between w-7/12 max-sm:w-full max-sm:mt-6">
+                    <div class="">
+                        <p class="text-2xl text-white font-medium ">Product</p>
+                        <p class="text-2xl text-white font-medium my-4 max-sm:my-1">Service</p>
+                        <p class="text-2xl text-white font-medium ">Contact Us</p>
+                    </div>
+                    <div class="text-2xl text-white font-semibold max-sm:mt-8"> 
+                        <h3>Follow Us</h3>
+                        <ul class="flex mt-4">
+                            <li class="mr-6 max-md:mr-2 w-12 h-12 rounded-full hover:bg-[rgba(255,255,255,0.8)] duration-300 bg-white cursor-pointer flex justify-center items-center"><i class="fa-brands fa-facebook main-color text-3xl"></i></li>
+                            <li class="mr-6 max-md:mr-2 w-12 h-12 rounded-full hover:bg-[rgba(255,255,255,0.8)] duration-300 bg-white cursor-pointer flex justify-center items-center"><i class="fa-brands fa-instagram main-color text-3xl"></i></li>
+                            <li class="mr-6 max-md:mr-2 w-12 h-12 rounded-full hover:bg-[rgba(255,255,255,0.8)] duration-300 bg-white cursor-pointer flex justify-center items-center"><i class="fa-brands fa-linkedin main-color text-3xl"></i></li>
+                            <li class="mr-6 max-md:mr-2 w-12 h-12 rounded-full hover:bg-[rgba(255,255,255,0.8)] duration-300 bg-white cursor-pointer flex justify-center items-center"><i class="fa-brands fa-youtube main-color text-3xl"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
 </body>
 
